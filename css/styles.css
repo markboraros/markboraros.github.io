@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+body {
+  background-color: #D7B520;
+  width: 80%;
+  margin: 1px;
+  margin: auto;
+  display: flex;
+}
+
+#main {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  border: 2px solid #ddd;
+  background-color: #ddd;
+  position: absolute;
+
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+#headerimg {
+  width: 100%;
+  height: 260px;
+  border-radius: 15px;
+}
+
+/*Header end*/
+#balaton {
+  width: 60%;
+  float: left;
+  margin: 1em 1em 1em;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#tiszato {
+  width: 60%;
+  float: left;
+  margin: 1em 1em 1em;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#szelidito {
+  width: 60%;
+  float: left;
+  margin: 1em 1em 1em;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/*Sections start*/
+.section-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 280px;
+  margin-bottom: 205px;
+  font-size: 16px;
+
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tiszatosec {
+  background-color: rgba(255, 227, 103, 0.459);
+  border: 2px solid rgba(0, 102, 255, 0.76);
+  border-radius: 15px;
+  position: relative;
+}
+
+#balatonsec {
+  background-color: rgba(228, 168, 99, 0.507);
+  border: 2px solid rgba(0, 102, 255, 0.76);
+  border-radius: 15px;
+  position: relative;
+}
+
+#szeliditosec {
+  background-color: rgba(4, 232, 248, 0.267);
+  border: 2px solid rgba(0, 102, 255, 0.76);
+  border-radius: 15px;
+  position: relative;
+}
+
+#sech2 {
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*Aside start*/
+aside {
+  max-width: 30%;
+  min-width: 30%;
+  float: left;
+  border: 2px solid rgba(0, 102, 255, 0.76);
+  background-color: rgba(0, 102, 255, 0.76);
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px;
+  margin-top: 295px;
+  display: block;
+  margin-bottom: 220px;
+
+
+}
+
+.menu {
+  list-style-type: none;
+  padding: 10px;
+
+}
+
+li {
+  text-align: center;
+  border-bottom: none;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 16px 8px;
+  font-size: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.452);
+  border-radius: 20px;
+}
+
+li a:hover {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+#ash3{
+  text-align: center;
+  margin-top: 70px ;
+}
+
+#adatok {
+  margin-top: 80px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#tavak{
+  margin-top: 20px;
+}
+
+#adattxt {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 30px;
+  max-height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#hotel {
+  margin-top: 30px;
+  max-width: 100%;
+  min-width: 100%;
+
+}
+
+#ellatas {
+  margin-top: 40px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#msg {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#msgarea {
+  margin-top: 100px;
+}
+
+input[type="checkbox"] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 0  auto;
+}
+
+input[type="radio"] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 0  auto;
+  
+}
+
+#hotel, #ellatas{
+  text-align: center;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+}
+
+#boxcenter{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input[type="submit"]{
+  border:2px solid black;
+  width: 50%;
+  border-radius: 40px;
+  background-color: rgba(0, 102, 255, 0.377);
+  height: 30px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 0  auto;
+}
+input[type="submit"]:hover{
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+#to{
+  border:2px solid black;
+  width: 50%;
+  border-radius: 30px;
+  background-color: rgba(0, 102, 255, 0.377);
+  height: 40px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin: 0  auto;
+  text-align: center;
+}
+
+/*Footer start*/
+footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border: 2px solid rgba(0, 0, 255, 0.336);
+  background-color: rgba(252, 82, 82, 0.705);
+  height: 20vh;
+  left: 0;
+  right: 0;
+  line-height: 1.5;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.footermaindiv {
+  display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.col-2 {
+  text-align: center;
+}
+
+.col-3 {
+  text-align: center;
+
+}
+
+.footer .footermaindiv h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#footerform #footerinput {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+#footerform #footerbtn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#contactp {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+a {
+  margin-top: 20px;
+  line-height: 1;
+}

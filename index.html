@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <header>
+            <h2><img id="headerimg" src="img/beach.jpg" alt="beach"></h2>
+        </header>
+        <!--Aside-->
+        <aside>
+            <div class="menu">
+
+                <li><a href="#balaton">Balaton</a></li>
+                <li><a href="#tiszato">Tisza-tó</a></li>
+                <li><a href="#szelidito">Szelidi-tó</a></li>
+            </div>
+             <div id="ash3div">
+               <h3 id="ash3">„Kérem töltse ki a jelentkezési űrlapot”
+            </h3>
+             </div>
+            <form id="adatok">
+                <label for="adatinfo">Név:</label>
+                <input type="text" id="adattxt" name="nev">
+
+                <label for="adatinfo">E-mail cím:</label>
+                <input type="email" id="adattxt" name="email">
+
+                <label for="adatinfo">Telefonszám:</label>
+                <input type="tel" id="adattxt" name="telefon">
+            </form>
+
+            <form id="tavak">
+                <label for="to">Melyik tó érdekli?</label>
+                <select id="to" name="to">
+                    <option value="balaton">Balaton</option>
+                    <option value="tisza">Tisza-tó</option>
+                    <option value="szelidi">Szelidi-tó</option>
+                </select>
+            </form>
+
+            <form id="hotel">
+                <label id="boxcenter" for="szallas">Milyen szállást keres?</label><br>
+
+                <label id="boxcenter" for="szalloda">Szálloda</label>
+                <input type="checkbox" name="szallas" value="szalloda">
+
+                <label id="boxcenter" for="apartman">Apartmanház</label>
+                <input type="checkbox" name="szallas" value="apartmanhaz">
+
+                <label id="boxcenter" for="kemping">Kemping</label>
+                <input type="checkbox" name="szallas" value="kemping">
+            </form>
+
+            <form id="ellatas">
+                <label id="boxcenter" for="ellatas">Milyen ellátást szeretne?</label><br>
+
+                <label id="boxcenter" for="teljes">Teljes</label>
+                <input type="radio" id="teljes" name="ellatas" value="teljes">
+
+                <label id="boxcenter" for="felpanzio">Fél panzió</label>
+                <input type="radio" id="felpanzio" name="ellatas" value="felpanzio">
+
+                <label id="boxcenter" for="reggeli">Csak reggeli</label>
+                <input type="radio" id="reggeli" name="ellatas" value="reggeli">
+
+                <label id="boxcenter" for="nincs">Nem kérek ellátást</label>
+                <input type="radio" id="nincs" name="ellatas" value="nincs">
+            </form>
+
+            <form id="msgarea">
+                <label for="uzenet">Egyéb üzenet:</label>
+                <textarea id="msg" name="uzenet"></textarea>
+                <input type="submit" value="Mehet">
+            </form>
+        </aside>
+        <!--Aside End-->
+        <div class="section-container">
+            <section id="balatonsec">
+                <h2 id="sech2">Balaton</h2>
+                <p id="balaton"><img id="balaton" src="img/balaton.jpg" alt="balaton">A Balaton Magyarország egyik
+                    legismertebb és legnépszerűbb turisztikai célpontja. A tó
+                    az ország
+                    legnagyobb édesvízi tava, amely a Dunántúli-középhegységben található. A tópartot az évszázadok
+                    során rengeteg ember kedvelte, és még ma is számos látogatót vonz, akik szeretnék élvezni a tó és
+                    környéke kínálta lehetőségeket.
+
+                    A Balaton partvidéke változatos, számos érdekes látnivalót és kikapcsolódási lehetőséget kínál. A tó
+                    körül rengeteg strand és fürdőhely található, amelyek között mindenki megtalálhatja a kedvére valót.
+                    A tó vizének hőmérséklete a nyári hónapokban kellemes, ideális a fürdőzésre és a vízi sportokra.
+
+                    A Balaton környékén rengeteg természeti és kulturális érték található. A tó déli partján található
+                    Siófok a fiatalok körében is nagyon népszerű, míg a nyugati medencében a Badacsony-hegység
+                    szőlőtermő vidékeire érdemes ellátogatni. A tó középső részén található a Tihanyi-félsziget, ahol
+                    többek között a bencés apátság és a levendulaültetvények csodálhatók meg.
+                    A Balaton partján rengeteg lehetőség kínálkozik a kerékpáros és gyalogtúrázóknak is. A parton húzódó
+                    kerékpárutak és túraösvények mindig izgalmas és változatos látnivalókat rejtenek. Az aktív pihenés
+                    szerelmesei számára a tó vize is rengeteg lehetőséget kínál, mint például a vitorlázás, a kajakozás,
+                    a szörfözés vagy akár a horgászat.
+                    A Balatonon számos kikötő található, ahonnan akár hajókirándulásokat is szerveznek a környékbeli
+                    látnivalókhoz. A környéken sok érdekes program, rendezvény és fesztivál is várja az idelátogatókat,
+                    például a balatonfüredi Anna-bál vagy a siófoki Balaton Sound.
+                    A Balaton történelme is gazdag, a tópart tele van kulturális örökségekkel. Az egykori
+                    Balaton-kultúra népe már az őskorban is élt a környéken, majd az idők során a tó partján számos
+                    kastély, kúria és műemlék épült.</p>
+            </section>
+
+            <section id="tiszatosec">
+                <h2 id="sech2">Tisza-tó</h2>
+                <p id="tiszato"><img id="tiszato" src="img/tiszato.jpg" alt="tiszato"> A Tisza-tó egy mesterséges tó,
+                    amelyet a Tisza folyó vízének feltartása és szabályozása
+                    révén hoztak
+                    létre a századfordulón. A tó területe 127 km², amelyből 77 km² vízfelület. A tó partjának hossza
+                    mintegy 160 km.
+
+                    A Tisza-tó gazdag élővilággal rendelkezik, több mint 200 madárfaj fészkel itt és rengeteg hal él a
+                    tóban. A tó környékén található a Tisza-tavi Ökocentrum, ahol interaktív kiállításokon és
+                    tanösvényeken keresztül ismerhetjük meg a tó élővilágát és környezetét.
+
+                    A tó partján számos fürdőhely és strand található, amelyek nyáron több tízezer embert vonzanak. A
+                    strandokon lehetőség van különböző vízi sportokra is, mint például vitorlázás, kajakozás,
+                    wakeboardozás és horgászat.
+
+                    A tó környéke azoknak is vonzó lehet, akik a kerékpározást kedvelik, hiszen a Tisza-tavat körülvevő
+                    kerékpárutak összesen mintegy 150 km hosszúak.
+
+                    A tó egyik érdekessége, hogy körülötte találhatók a világ egyik legnagyobb, fából épült játszóterei,
+                    a Tisza-tavi Ökoplayák. Ezek az egyedi játékok kiváló lehetőséget nyújtanak a gyermekeknek a
+                    szabadtéri játékra és kalandokra.
+
+                    A Tisza-tó környékén számos túraútvonal is található, ahol a természet közelségében lehet kirándulni
+                    és túrázni. A legnépszerűbb túraútvonalak a Tisza-tavi Tanösvény és a Tisza-tavi Ökotúra.
+
+                    A tó környékén számos kulturális és történelmi látnivaló is található. Például a tó közvetlen
+                    közelében fekszik a Tiszafüreden található Tisza-tavi Halászati Múzeum, amely a tó horgászati
+                    hagyományait mutatja be.
+
+                    A Tisza-tó télen is vonzó, hiszen a fagyos időjárás lehetővé teszi a jégkorcsolyázást és a
+                    horgászatot is. A tó környéke télen is gyönyörű látványt nyújt, és lehetőséget ad a szánkózásra és a
+                    sítúrázásra is.
+
+                    A Tisza-tó környékén számos gasztronómiai specialitás található.
+                </p>
+            </section>
+
+            <section id="szeliditosec">
+                <h2 id="sech2">Szelidi-tó</h2>
+                <p id="szelidito"><img id="szelidito" src="img/szelidito.jpg" alt="szelidito">A Szelidi-tó a
+                    Balaton-felvidéki Nemzeti Park területén található, Szepetnektől kb. 12
+                    km-re északra.
+                    A tó körülbelül 34 hektáros területen terül el, és a Keszthelyi-hegység lankáinak találkozásánál
+                    helyezkedik el.
+                    A Szelidi-tó türkizkék vizű és rendkívül tiszta, ami miatt különösen népszerű a fürdőzők körében. A
+                    parton található homokos és füves területek ideálisak a napozásra és a pihenésre. A tóban lehet
+                    horgászni és csónakázni is.
+                    A Szelidi-tó körül több túraútvonal is található, amelyek a Keszthelyi-hegység és a
+                    Balaton-felvidéki Nemzeti Park szépségeit mutatják be. Az egyik legnépszerűbb túraútvonal a Szent
+                    Mihály-hegyre vezet, ahonnan gyönyörű panoráma nyílik a környékre.
+                    A tó partján található a Szelidi-tó Kemping, amely kényelmes szállást biztosít az idelátogatóknak. A
+                    kempingben lehetőség van sátorozásra, lakókocsi bérlésre és apartmanokban történő szállásfoglalásra
+                    is.
+                    A környéken több látnivaló is található, például a Szent Vid-hegyi Kilátó, a Festetics-kilátó és a
+                    Csodabogyós-barlang. A környéken gazdag kulturális és történelmi örökség is található, például a
+                    Festetics-kastély és a Kis-Balaton védett területe.
+                    A Szelidi-tó télen is különleges élményt nyújt, amikor a tó partján sípálya és szánkópálya üzemel. A
+                    téli sportok kedvelői élvezhetik a síelést és a snowboardozást.
+                    A tó környéke a madármegfigyelők paradicsoma, mivel itt található a Balaton-felvidéki Nemzeti Park
+                    madárrezervátuma, ahol több mint 200 faj él.
+                    A Szelidi-tó környékén található éttermek és vendéglők kiváló helyek az ízletes helyi ételek
+                    kóstolására. A környéken termesztett gyümölcsök, zöldségek és borok kiváló minőségűek.
+                    A Szelidi-tó és környéke a természet szerelmeseinek és az aktív kikapcsolódást keresőknek kiváló úti
+                    cél. A tó kristálytiszta vize, a lenyűgöző</p>
+            </section>
+        </div>
+        <footer>
+            <div class="footermaindiv">
+                <div class="col-1">
+                    <h3>HASZNOS LINKEK</h3>
+                    <a href="#">Rólunk</a>
+                    <a href="#">Szolgáltatások</a>
+                    <a href="#">Kapcsolat</a>
+                    <a href="#">Blog</a>
+                </div>
+
+                <div class="col-2">
+                    <h3>HÍRLEVÉL</h3>
+                    <form id="footerform">
+                        <input id="footerinput" type="text" placeholder="Your Email Sddress" required>
+                        <br>
+                        <button id="footerbtn" type="submit">FELIRATKOZÁS</button>
+                    </form>
+                </div>
+
+                <div class="col-3">
+                    <h3>KAPCSOLAT</h3>
+                    <p id="contactp"> Budapest,<br>Szent István krt. 9.</p>
+                    <p id="contactp"> Tel.: 06/309999999</p>
+                </div>
+        </footer>
+    </div>
+</body>
+
+</html>
