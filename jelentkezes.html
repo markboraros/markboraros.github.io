@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="script.js" defer></script>
+  <title>Jelentkezés</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo">Peak Tours</a>
+
+    <input type="checkbox" id="menu-bar">
+      <label for="menu-bar">Menu</label>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="tours.html">Túrák</a></li>
+        <li><a href="hegyek.html">Hegyek ⛛</a>
+          <ul>
+            <li><a href="everest.html">Everest</a></li>
+            <li><a href="annapurna.html">annapurna</a></li>
+            <li><a href="k2.html">K2</a></li>
+          </ul>
+        </li>
+        <li><a href="jelentkezes.html">Jelentkezés</a></li>
+        <li><a href="login.html">Bejelentkezés</a></li>
+        <li><a href="contact.html">Kapcsolat</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <div class="title">
+      Jelentkezési Lap
+    </div>
+    <div class="form">
+      <div class="inputfield">
+        <label>Vezetéknév</label>
+        <input type="text" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Keresztnév</label>
+        <input type="text" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Email cím</label>
+        <input type="email" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Telefonszám</label>
+        <input type="tel" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Nem</label>
+        <div class="custom_select">
+          <select>
+            <option value="">Választ</option>
+            <option value="male">Férfi</option>
+            <option value="female">Nő</option>
+          </select>
+        </div>
+      </div>
+      <div class="inputfield">
+        <label>Ország</label>
+        <input type="text" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Cím</label>
+        <input type="text" class="input">
+      </div>
+      
+      <div class="inputfield">
+        <label>Túra</label>
+        <input type="text" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Időpont</label>
+        <input type="text" class="input">
+      </div>
+      <div class="inputfield">
+        <label>Megjegyzéas</label>
+        <textarea class="textarea"></textarea>
+      </div>
+      <div class="inputfield terms">
+        <label class="check">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <p>Elfogadom az Általános Szerződési Feltételeket</p>
+      </div>
+      <div class="inputfield">
+       <a class="input" href="index.html"><input type="submit" value="Elküldés" class="btn"></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

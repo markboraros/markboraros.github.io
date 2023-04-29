@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Peak Tours</a>
+    
+        <input type="checkbox" id="menu-bar">
+          <label for="menu-bar">Menu</label>
+    
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="tours.html">Túrák</a></li>
+            <li><a href="hegyek.html">Hegyek ⛛</a>
+              <ul>
+                <li><a href="everest.html">Everest</a></li>
+                <li><a href="annapurna.html">annapurna</a></li>
+                <li><a href="k2.html">K2</a></li>
+              </ul>
+            </li>
+            <li><a href="jelentkezes.html">Jelentkezés</a></li>
+            <li><a href="login.html">Bejelentkezés</a></li>
+            <li><a href="contact.html">Kapcsolat</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="container active-popup">
+        <div class="form-box login">
+            <h2 id="title">Bejelentkezés</h2>
+            <form>
+                <div class="input-group">
+                    <div class="input-field">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Jelszó">
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">emlékezz rám</label><br>
+                        <a href="password.html">Elfelejtette jelszavát</a>
+
+                    </div>
+                    <div class="btn-field">
+                        <a href="index.html"><button type="button" id="signupBtn">Bejelentkezés</button></a>
+                    </div>
+                    <div class="login-register">
+                        <p>Nincs fiókja? <a href="#" class="register-link">Regisztráció</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2 id="title">Regisztráció</h2>
+            <form action="#">
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                        <input type="text" placeholder="Név">
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Jelszó">
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Elfogadom a feltételeket</label>
+                        <div class="btn-field">
+                           <a href="index.html"> <button type="button" id="signupBtn">Regisztráció</button></a>
+                        </div>
+                        <div class="login-register">
+                            <p>Már van fiókja? <a href="#" class="login-link">Bejelentkezés</a></p>
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+
+
+
+<script src="script.js"></script>
+<!--<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+-->
+
+
+</html>
